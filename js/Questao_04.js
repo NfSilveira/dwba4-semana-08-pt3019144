@@ -28,10 +28,10 @@ function criarMatrizAlunos(){
     new Aluno("Lucas", "Pereira", 7.0, 6.5)
   ];
 	
-	alunos.forEach(mostrarAlunos);
+	alunos.forEach(mostrarDadosAluno);
 }
 
-function mostrarAlunos(item, index) {
+function mostrarDadosAluno(item, index) {
 	  alert("Nome completo: " + item.nomeCompleto() + "\n" + 
 			"Média: " + item.media().toFixed(2) + "\n" + 
 			"Situação: " + item.situacao());
